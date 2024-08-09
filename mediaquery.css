@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 
-@media screen and (min-width: 768px) and (max-width: 900px)  {
+@media screen and (max-width: 900px)  {
     #bloco{
         max-width: 300px;
         font-size: 13px;
@@ -9,7 +9,7 @@
         padding: 20px;
     }
 }
-@media screen and (min-width: 720px) and (max-width: 768px)  {
+@media screen and (max-width: 768px)  {
     #bloco{
         max-width: 300px;
         font-size: 13px;
@@ -19,7 +19,7 @@
     }
 
 }
-@media screen and (min-width: 480px) and (max-width: 720px)  {
+@media screen and (max-width: 720px)  {
     #bloco{
         max-width: 200px;
         font-size: 13px;
@@ -60,7 +60,7 @@
     border: 1px solid rgb(95, 95, 95);
 }
 }
-@media screen and (min-width: 480px) and (max-width: 559px)  {
+@media screen and (max-width: 559px)  {
     section{
         display: flex;
         justify-content: center;
@@ -110,4 +110,17 @@
         height: 170px;
         border: 5px solid rgba(0, 0, 0, 0.227);
     }
+}
+@media screen and (max-width: 478px)  {
+    #container-conteudo{
+        flex-flow: column wrap;
+    }
+    #imagem{
+        display: flex;
+        justify-content: center;
+    } #imagem > img{
+        margin: 5% 0 15% 0;
+
+    }
+
 }
