@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos HenriAM</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
     <link rel="shortcut icon" href="images/favicon.jpg" type="favicon.jpg">
@@ -12,10 +13,9 @@
     <header>
         <div id="container-logo"><a href="index.html"><img src="images/favicon.png" alt="logo em png" id="logo"></a></div>
         <nav>
-            <a href="index.html" class="titulo">Home</a>
-            <a href="#" class="titulo">Sobre</a>
-            <a href="#" class="titulo">Experiência</a>
-            <a href="#" class="titulo" id="change-font">Projetos</a>
+                <a href="index.html" class="titulo menuItem">Home</a>
+                <a href="#" class="titulo">Sobre</a>
+                <a href="#" class="titulo">Experiência<a href="#" class="titulo " id="change-font">Projetos</a></li>
         </nav>
     </header>
 
@@ -45,7 +45,7 @@
                     <div class="conteudo-projetos3">
                         <h1>Projeto - Optimus Tech</h1>
                         <div class="container-img">
-                            <img src="images/optimus-tech.PNG" alt="Projeto site empresa ficticia optimus tech" id="imagem-optimus-tech">
+                            <a href="https://carloshenriqueam.github.io/optimus-tech/home.html" target="_blank"><img src="images/optimus-tech.PNG" alt="Projeto site empresa ficticia optimus tech" id="imagem-optimus-tech"></a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,15 @@
         </div>            
     </main>
             <footer>
-
+                <div class="container-main">
+                    <h1>Contato</h1>
+                    <div class="form-container">
+                        <form action="" method="get" autocomplete="on">
+                            <input type="email" name="email" id="iemail" placeholder="Seu e-mail" autocomplete="email" required>
+                            <input type="submit" value="Enviar" maxlength="30">
+                        </form>
+                    </div>
+                </div>
             </footer>
             
 </body>

@@ -112,6 +112,7 @@
     }
 }
 @media screen and (max-width: 478px)  {
+    
     #container-conteudo{
         flex-flow: column wrap;
     }
@@ -120,7 +121,5 @@
         justify-content: center;
     } #imagem > img{
         margin: 5% 0 15% 0;
-
     }
-
 }
