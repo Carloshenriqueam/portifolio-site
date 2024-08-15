@@ -302,6 +302,7 @@ input[type="email"]{
     border: 1px solid rgba(186, 185, 185, 0.308);
     margin-right: 10px;
     color: bisque;
+    text-align: center;
 }
 input[type="submit"]{
     border: 1px solid rgba(186, 185, 185, 0.308);
@@ -321,8 +322,14 @@ input[type="submit"]:hover{
     cursor: pointer;
     border: 1px solid rgba(186, 185, 185, 0.76);
     box-shadow: 1px 1px 10px rgba(156, 255, 27, 0.137);
+    color: #ffe4c4;
+
 }
 input[type="email"]:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #2d2d2d inset;
-    -webkit-text-fill-color: rgb(155, 155, 155) !important;
+    -webkit-text-fill-color: rgb(255, 228, 196) !important;
+    border: 1px solid rgb(83, 83, 83);
+}
+input[type="email"]:focus {
+    color: bisque;
 }
