@@ -6,17 +6,18 @@
 body{
     background: radial-gradient(#2d2d2d,#1a1a1a);
     background-attachment: fixed;
+    background-image: url('images/Título-1.jpg');
 }
 header{
         display: flex;
         text-align: center;
-        background: #1b1b1b;
+        position: fixed;
         font-size: 30px;
-        border: 1px solid rgb(95, 95, 95);
+
         width: auto;
 }
 nav{
-    display: flex;
+    display: none;
     margin: auto;
 }
 #container-logo{
@@ -56,10 +57,11 @@ nav{
 #container-background{
     display: flex;
     justify-content: center;
-    background-color: rgb(42, 42, 42);
+    background-color: rgba(42, 42, 42, 0.452);
     border: 1px solid rgb(95, 95, 95);
     margin: 5%;
     height: auto;
+
 }
 #container-background > section{
     display: flex;
@@ -78,22 +80,24 @@ section{
 }
 
 #bloco{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(22, 22, 22));
+    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgba(22, 22, 22, 0.329));
     width: 90%;
     max-width: 500px;
     height: 200px;
     color: bisque;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
     border: 1px solid rgb(95, 95, 95);
+    padding: 10px;
     margin: 5% 0;
     line-height: 20px;
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.481);
     transition: .5s;
+
 }
 #bloco:hover{
     padding: 20px;
     transition: .5s;
+
 }
 #imagem img{
     width: 250px;
@@ -106,14 +110,16 @@ section{
     padding: 5px 0px;
     font-family: "Bebas Neue", sans-serif;  
     color: bisque;
+    letter-spacing: 10px;
 }
 .conteudo > p{
     padding: 7px 7px;
     text-shadow: 2px 2px 15px rgb(0, 0, 0);
     color: bisque;
+    letter-spacing: 1px;
 }
 #bloco2{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(22, 22, 22));
+    background-image: linear-gradient(to bottom, rgba(58, 58, 58, 0.39), rgb(22, 22, 22));
     width: 500px;
     height: 200px;
     flex-flow: row wrap;
@@ -135,7 +141,7 @@ section{
     display: flex;
 }
 #bloco3{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(36, 36, 36));
+    background-image: linear-gradient(to bottom, rgba(58, 58, 58, 0.466), rgb(36, 36, 36));
     width: 570px;
     height: 380px;
     flex-flow: column wrap;
@@ -160,6 +166,7 @@ section{
     font-family: "Bebas Neue", sans-serif;  
     color: bisque;
     text-align: center;
+    letter-spacing: 10px;
 }
 .container-img{
     display: flex;
@@ -177,12 +184,13 @@ section{
     justify-content: center;
     gap: 10px;
     margin-bottom: 5%;
+    letter-spacing: 1px;
 }
 .container-buttoms a{
     text-decoration: none;
 }
 .buttom-demo{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(36, 36, 36));
+    background-image: linear-gradient(to bottom, rgba(58, 58, 58, 0.39), rgb(36, 36, 36));
     width: 70px;
     height: 40px;
     flex-flow: column wrap;
@@ -209,7 +217,7 @@ section{
     font-size: 19px;
 }
 .buttom-git{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(36, 36, 36));
+    background-image: linear-gradient(to bottom, rgba(58, 58, 58, 0.349), rgb(36, 36, 36));
     width: 90px;
     height: 40px;
     flex-flow: column wrap;
@@ -237,7 +245,7 @@ section{
     text-align: center;
 }
 .buttom-desc{
-    background-image: linear-gradient(to bottom, rgb(58, 58, 58), rgb(36, 36, 36));
+    background-image: linear-gradient(to bottom, rgba(58, 58, 58, 0.356), rgb(36, 36, 36));
     width: 90px;
     height: 40px;
     flex-flow: column wrap;
@@ -274,7 +282,7 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(46, 46, 46);
+    background-color: rgba(46, 46, 46, 0.308);
     border: 1px solid rgba(186, 185, 185, 0.308);
     margin-bottom: 5%;
     padding: 2%;
@@ -287,7 +295,7 @@ footer{
     margin-top: 1%;
 }
 .form-container form{
-    background-color: #353535;
+    background-color: #35353562;
     display: flex;
     padding: 10px;
 }
@@ -298,7 +306,7 @@ input[type="email"]:focus{
 input[type="email"]{
     width: 200px;
     height: 40px;
-    background-color: #2d2d2d;
+    background-color: #2d2d2d73;
     border: 1px solid rgba(186, 185, 185, 0.308);
     margin-right: 10px;
     color: bisque;
@@ -307,7 +315,7 @@ input[type="email"]{
 input[type="submit"]{
     border: 1px solid rgba(186, 185, 185, 0.308);
     font-family: "Bebas Neue", sans-serif;  
-    background-color: #2d2d2d;
+    background-color: #2d2d2d04;
     color: bisque;
     transition: .5s;
     width: 80px;
@@ -326,7 +334,7 @@ input[type="submit"]:hover{
 
 }
 input[type="email"]:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2d2d2d inset;
+    -webkit-box-shadow: 0 0 0 30px #2d2d2d5b inset;
     -webkit-text-fill-color: rgb(255, 228, 196) !important;
     border: 1px solid rgb(83, 83, 83);
 }
